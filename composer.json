@@ -1,0 +1,28 @@
+{
+    "name": "shahariaazam/gdrive-direct-download-link",
+    "description": "Extract downloadable link from any Google Drive sharable link. Easy to use to embed or use direct Google Drive download link",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shaharia Azam",
+            "email": "mail@shaharia.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShahariaAzam\\GDriveLinkExtractor\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ShahariaAzam\\GDriveLinkExtractor\\Tests\\": "tests"
+        }
+    }
+}
